@@ -1,0 +1,17 @@
+.zoom_thumb {
+  overflow: hidden;
+  width: 320px;
+  height: 240px;
+  float: left;
+}
+.zoom_thumb img{
+  width: 100%;
+  transition: all ease-out .6s;
+  position: relative;
+}
+
+.zoom_thumb:hover img {
+  width: 125%;
+  margin-left: -10%;
+  margin-top: -10%;
+}
